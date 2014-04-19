@@ -3,7 +3,7 @@
 mod.install() {
     ellipsis.link_files "$mod_path/common"
 
-    case "$(uname | tr '[:upper:]' '[:lower:]')" in
+    case "$(ellipsis.platform)" in
         cygwin*)
             link_files "$mod_path/platform/cygwin"
             ;;
