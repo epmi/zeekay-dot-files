@@ -5,16 +5,16 @@ mod.install() {
 
     case "$(ellipsis.platform)" in
         cygwin*)
-            link_files "$mod_path/platform/cygwin"
+            ellipsis.link_files "$mod_path/platform/cygwin"
             ;;
         darwin)
-            link_files "$mod_path/platform/osx"
+            ellipsis.link_files "$mod_path/platform/osx"
             ;;
         freebsd)
-            link_files "$mod_path/platform/freebsd"
+            ellipsis.link_files "$mod_path/platform/freebsd"
             ;;
         linux)
-            link_files "$mod_path/platform/linux"
+            ellipsis.link_files "$mod_path/platform/linux"
             ;;
     esac
 }
