@@ -1,10 +1,17 @@
-## dot-files
-All the usual suspects. Symlink into `$HOME` for great justice! Default dot
-files provided by [`ellipsis`][ellipsis].
+# dot-files
+Default dotfiles provided by [ellipsis][ellipsis] and my personal setup.
 
-### Install
-If you use ellipsis, this is installed by default. If for some reason you need to re-install, you can:
+## Features
+All the usual suspects. Does not provide any shell or editor configurations. See
+[dot-zsh][zsh], [dot-vim][vim], etc for the rest of my config.
 
-    `ellipsis install dot-files`
+## Install
+Clone and symlink or install with [ellipsis][ellipsis]:
+
+```
+$ ellipsis install vim
+```
 
 [ellipsis]: http://ellipsis.sh
+[vim]:      https://github.com/zeekay/dot-vim
+[zsh]:      https://github.com/zeekay/dot-zsh
